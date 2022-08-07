@@ -1,0 +1,47 @@
+.wrapper {
+  width: 100%;
+  margin-top: 5em;
+  background: url("../../assets/bg.jpg") no-repeat center center fixed;
+  background-size: cover;
+  height: 50em;
+  color: white;
+}
+
+.wrapper .container {
+  background-color: rgba(0, 0, 0, 0.63);
+  height: 96%;
+  padding: 1em 8em;
+  -webkit-animation: fadeIn 1s;
+          animation: fadeIn 1s;
+}
+
+.wrapper .container h2 {
+  color: white;
+  font-size: 4rem;
+  margin-top: 3em;
+}
+
+.wrapper .container p {
+  font-size: 1.2rem;
+  margin-top: -2em;
+  width: 35em;
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/*# sourceMappingURL=Hero.css.map */

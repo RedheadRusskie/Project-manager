@@ -1,0 +1,42 @@
+.navigate .nav-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 2em;
+}
+
+.navigate .nav-container .toggle-buttons .tag-btn {
+  font-size: 1.2rem;
+  margin: 0.4em 0.3em;
+  width: 5.5em;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.navigate .nav-container .add-btn {
+  margin-left: 0.5em;
+  margin-right: auto;
+}
+
+.navigate .nav-container .add-btn button {
+  border: 3px solid var(--sec-color);
+  border-radius: 50%;
+  padding: 0.6em 1em;
+  background-color: transparent;
+  font-size: 1.1rem;
+  color: var(--sec-color);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  font-weight: bold;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.navigate .nav-container .add-btn button:hover {
+  color: white;
+  background-color: var(--sec-color);
+  -webkit-box-shadow: 0px 0px 12px 1px var(--sec-color);
+          box-shadow: 0px 0px 12px 1px var(--sec-color);
+}
+/*# sourceMappingURL=ProjectMenu.css.map */

@@ -1,0 +1,35 @@
+.wrapper {
+  width: 100%;
+  margin-top: 5em;
+  background: url('../../assets/bg.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 50em;
+  color: white;
+
+  .container {
+    background-color: rgba(0, 0, 0, 0.63);
+    height: 96%;
+    padding: 1em 8em;
+    animation: fadeIn 1s;
+
+    h2 {
+      color: white;
+      font-size: 4rem;
+      margin-top: 3em;
+    }
+
+    p {
+      font-size: 1.2rem;
+      margin-top: -2em;
+      width: 35em;
+    }
+  }
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}

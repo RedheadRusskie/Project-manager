@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200;300;400;700&family=Poppins:wght@300;400;700&display=swap');
+
+:root {
+  --text-color: rgb(37, 37, 37);
+  --sec-color: rgb(80, 80, 80);
+}
+
+
+* {
+  font-family: 'Barlow', sans-serif;
+  font-family: 'Poppins', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.main-btn {
+  width: fit-content;
+  border: 0.2em solid white;
+  background-color: transparent;
+  color: white;
+  padding: 0.8em;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: 0.2s;
+  font-weight: 300;
+  margin-top: 1em;
+}
+
+.main-btn:hover {
+  background-color: white;
+  color: var(--sec-color);
+  box-shadow: 0px 0px 12px 3px rgba(255,255,255,0.6);
+}
